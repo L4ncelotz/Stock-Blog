@@ -1,0 +1,16 @@
+{
+  "mcp": {
+    "servers": {
+      "supabase": {
+        "transport": "http",
+        "url": "https://mcp.supabase.com/mcp",
+        "params": {
+          "project_ref": "vdpqkhzomsacoyaoljrb"
+        },
+        "headers": {
+          "Authorization": "Bearer ${env.SUPABASE_ACCESS_TOKEN}"
+        }
+      }
+    }
+  }
+}
